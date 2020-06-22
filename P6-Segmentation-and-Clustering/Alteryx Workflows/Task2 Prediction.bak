@@ -1,0 +1,265 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\Stores_to_be_predicted_on.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Stores_to_be_predicted_on.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="5" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="String" />
+            <Field name="Age0to9" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="Age10to17" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="Age18to24" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="Age25to29" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="Age30to39" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="Age40to49" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="Age50to64" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="Age65Plus" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="EdLTHS" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="EdHSGrad" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="EdSomeCol" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="EdAssociate" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="EdBachelor" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="EdMaster" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="EdProfSchl" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="EdDoctorate" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="HHSz1Per" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="HHSz2Per" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="HHSz3Per" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="HHSz4Per" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="HHSz5PlusPer" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="HHIncU25K" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="HHInc25Kto50K" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="HHInc50Kto75K" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="HHInc75Kto100K" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="HHInc100Kto150K" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="HHInc150Kto250K" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="HHInc250KPlus" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="PopAsian" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="PopBlack" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="PopHispanic" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="PopMulti" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="PopNativeAmer" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="PopOther" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="PopPacIsl" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="PopWhite" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="HVal0to100K" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="HVal100Kto200K" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="HVal200Kto300K" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="HVal300Kto400K" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="HVal400Kto500K" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="HVal500Kto750K" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="HVal750KPlus" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+            <Field name="PopDens" source="File: C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\storedemographicdata.csv" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\HELLO\Desktop\DS\Nanodegrees\Predictive Analytics for Business Nanodegree\Final Project\All Project Files\Boosted_model.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Boosted_model.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Object" size="2147483647" source="R-DATA:SERIAL" type="Blob" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="Score">
+        <Position x="222" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="modelChoice">Local Model</Value>
+          <Value name="score field">
+          </Value>
+          <Value name="is oversampled">False</Value>
+          <Value name="oversampled value">
+          </Value>
+          <Value name="original percent">2</Value>
+          <Value name="log y">False</Value>
+          <Value name="prediction.interval">False</Value>
+          <Value name="interval.level">95</Value>
+          <Value name="append.xdf">False</Value>
+          <Value name="num.records">256000</Value>
+          <Value name="credentials">
+          </Value>
+          <Value name="models">
+          </Value>
+          <Value name="page">
+          </Value>
+          <Value name="errorStatus">
+          </Value>
+          <Value name="modelDetailJSON">
+          </Value>
+          <Value name="modelDetails">{"Name":"","Owner":"","Status":"","Id":"","LastDeployment":"","LastUpdated":"","LatestVersion":"","ActiveVersion":"","NumReplications":"","NumVersions":""}</Value>
+          <Value name="promoteURL">
+          </Value>
+          <Value name="username">
+          </Value>
+          <Value name="model_name">
+          </Value>
+          <Value name="model_owner">
+          </Value>
+          <Value name="apiKey">
+          </Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Score\Supporting_Macros\score-engine.yxmc" EngineDll="Macro" EngineDllEntryPoint="Score\Supporting_Macros\score-engine.yxmc" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="306" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\HELLO\AppData\Local\Temp\Engine_29760_a16950d4dbde4b3b974b47f7ef3bc17f_\Engine_11072_21718c9ad7f74e419009cfe7a8ab6a1c_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="306" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&gt;</Operator>
+            <Field>X_1</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-05-29 16:03:08</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>0.5</Operand>
+              <StartDate>2020-05-29 16:03:08</StartDate>
+              <EndDate>2020-05-29 16:03:08</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[X_1] &gt; 0.5</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Model" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Task2 Prediction</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
